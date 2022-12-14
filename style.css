@@ -1,0 +1,42 @@
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+body{
+  background-color: rgb(39, 168, 168);
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  
+}
+h1{
+  height: 5rem;
+  text-align: center;
+  display: block;
+  font-size: xx-large;
+}
+#search {
+    width: 100px;
+}
+#movieList{
+  height:7vh;
+}
+#movieDetails{
+  
+  width: 50vw;
+  height: 30vh;
+
+  
+}
+#movieDetails img{
+  height: 50vh;
+  width: 50vh;
+}
+.moviesList{
+  /* background-color: red; */
+  width: 90vw;
+  height:100vh;
+}
+.big{
+  display: flex;
+}
+.list-group-item {
+  line-height: 1rem;
+}
